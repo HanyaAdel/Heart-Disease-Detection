@@ -18,6 +18,5 @@ def drop_outliers_IQR(df):
 #load the data into a dataframe
 
 df = pd.read_csv('heart.csv')
-
 df = drop_outliers_IQR(df)
 print (df.shape)
